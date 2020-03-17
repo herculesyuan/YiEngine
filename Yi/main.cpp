@@ -6,7 +6,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 
-    SIZE_T siz;
+    SIZE_T size = 0;
 
 
     HACCEL hAccelTable = LoadAccelerators(hInstance, TEXT(""));
